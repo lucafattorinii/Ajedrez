@@ -1,4 +1,4 @@
-#Proyecto de Ajedrez en Java#
+# Proyecto de Ajedrez en Java
 
 Este proyecto es una implementación simple del juego de ajedrez en Java.
 
