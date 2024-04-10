@@ -6,7 +6,7 @@ Para ejecutar este proyecto en tu máquina local, sigue estos pasos:
 
 Clona este repositorio en tu máquina local usando Git:
 
-git clone https://github.com/tu_usuario/tu_proyecto_de_ajedrez.git
+git clone https://github.com/lucafattorinii/Ajedrez.git
 Abre el proyecto en tu IDE favorito que admita Java.
 
 Compila y ejecuta el proyecto.
