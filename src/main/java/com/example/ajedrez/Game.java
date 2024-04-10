@@ -30,7 +30,7 @@ public class Game {
         this.players[1] = new Player(player2Name, false);
         this.currentPlayerIndex = 0;
         this.movesHistory = new ArrayList<>();
-        // No necesitas llamar a initializeBoard() aquí ya que el tablero se proporciona directamente
+        
     }
 
     private void initializeBoard() {
