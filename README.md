@@ -2,7 +2,7 @@
 
 Este proyecto es una implementación simple del juego de ajedrez en Java.
 
-## Instalación#
+## Instalación
 Para ejecutar este proyecto en tu máquina local, sigue estos pasos:
 
 Clona este repositorio en tu máquina local usando Git:
