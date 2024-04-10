@@ -16,7 +16,7 @@ public class ChessTest {
         assertFalse(game.isValidMove(1, 0, 2, 0)); // Movimiento inválido para el peón
         assertTrue(game.isValidMove(0, 1, 2, 2)); // Movimiento válido para el alfil
         assertFalse(game.isValidMove(0, 1, 3, 3)); // Movimiento inválido para el alfil
-        // Agrega más pruebas de movimiento para otras piezas
+        
     }
 
     
@@ -27,7 +27,7 @@ public class ChessTest {
         // Configura un tablero de prueba donde no hay movimientos posibles para uno de los jugadores
         // y verifica si se detecta correctamente el estancamiento
         assertFalse(game.isStalemate()); // No hay estancamiento
-        // Agrega más pruebas con tableros configurados para diferentes escenarios de estancamiento
+       
     }
     
     @Test
@@ -37,6 +37,6 @@ public class ChessTest {
         // Intenta realizar movimientos inválidos y verifica si se detectan correctamente
         assertFalse(game.isValidMove(0, 0, 2, 2)); // Movimiento inválido, no hay pieza en la posición inicial
         assertFalse(game.isValidMove(1, 0, 5, 0)); // Movimiento inválido, intento de mover demasiadas casillas con el peón
-        // Agrega más pruebas de movimientos inválidos para cubrir diferentes casos
+        
     }
 }
